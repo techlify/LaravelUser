@@ -1,0 +1,24 @@
+{
+    "name": "techlify/laravel-user-module",
+    "description": "Reusable user module for Laravel",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "Gokula Prasanna",
+            "email": "gokula@techlify.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\LaravelUser\\Providers\\LaravelUserServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LaravelUser\\": ""
+        }
+    }
+}
