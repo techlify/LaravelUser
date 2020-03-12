@@ -5,7 +5,7 @@ namespace Modules\LaraveUser\Providers;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
 
-class laraveluserServiceProvider extends ServiceProvider
+class LaravelUserServiceProvider extends ServiceProvider
 {
     /**
      * Boot the application events.
