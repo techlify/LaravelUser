@@ -1,8 +1,8 @@
 <?php
 
-namespace Modules\LaraveUser\Entities;
+namespace Modules\LaravelUser\Entities;
 
-use Modules\LaraveUser\Entities\Permission;
+use Modules\LaravelUser\Entities\Permission;
 use App\Models\TechlifyModel;
 use App\User;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\LaraveUser\Emails;
+namespace Modules\LaravelUser\Emails;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\LaraveUser\Http\Controllers;
+namespace Modules\LaravelUser\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Modules\LaraveUser\Entities\Permission;
+use Modules\LaravelUser\Entities\Permission;
 
 class PermissionController extends Controller
 {

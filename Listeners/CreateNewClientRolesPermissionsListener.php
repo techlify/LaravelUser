@@ -1,14 +1,14 @@
 <?php
 
-namespace Modules\LaraveUser\Listeners;
+namespace Modules\LaravelUser\Listeners;
 
 use Illuminate\Support\Facades\DB;
 use Modules\AddressBook\Traits\AddressBookSubscription;
 use Modules\Administration\Traits\AdministrationSubscription;
 use Modules\Module\Entities\Module;
 use Modules\Module\Entities\ModulePackage;
-use Modules\LaraveUser\Entities\Permission;
-use Modules\LaraveUser\Entities\Role;
+use Modules\LaravelUser\Entities\Permission;
+use Modules\LaravelUser\Entities\Role;
 
 /**
  * When a new client is created,

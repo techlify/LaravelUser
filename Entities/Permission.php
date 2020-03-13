@@ -1,10 +1,10 @@
 <?php
 
-namespace Modules\LaraveUser\Entities;
+namespace Modules\LaravelUser\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
-use Modules\LaraveUser\Entities\Role;
+use Modules\LaravelUser\Entities\Role;
 
 class Permission extends Model
 {

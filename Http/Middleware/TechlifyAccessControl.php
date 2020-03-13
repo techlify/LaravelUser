@@ -1,10 +1,10 @@
 <?php
 
-namespace Modules\LaraveUser\Http\Middleware;
+namespace Modules\LaravelUser\Http\Middleware;
 
 use Illuminate\Support\Facades\Auth;
 use Closure;
-use Modules\LaraveUser\Entities\UserType;
+use Modules\LaravelUser\Entities\UserType;
 
 /**
  * Middleware to enforce access control on routes

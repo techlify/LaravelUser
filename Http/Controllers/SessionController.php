@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\LaraveUser\Http\Controllers;
+namespace Modules\LaravelUser\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;

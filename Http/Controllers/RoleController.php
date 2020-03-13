@@ -1,11 +1,11 @@
 <?php
 
-namespace Modules\LaraveUser\Http\Controllers;
+namespace Modules\LaravelUser\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Modules\LaraveUser\Entities\Role;
-use Modules\LaraveUser\Entities\Permission;
+use Modules\LaravelUser\Entities\Role;
+use Modules\LaravelUser\Entities\Permission;
 use Modules\Module\Entities\Module;
 
 class RoleController extends Controller

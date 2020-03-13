@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Migrations\Migration;
-use Modules\LaraveUser\Entities\Permission;
+use Modules\LaravelUser\Entities\Permission;
 
 class CreateLaravelUserManagementPermissions extends Migration
 {

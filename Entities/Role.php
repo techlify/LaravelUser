@@ -1,13 +1,13 @@
 <?php
 
-namespace Modules\LaraveUser\Entities;
+namespace Modules\LaravelUser\Entities;
 
 use App\User;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Module\Entities\Module;
-use Modules\LaraveUser\Entities\Permission;
-use Modules\LaraveUser\Entities\RolePermission;
-use Modules\LaraveUser\Entities\RoleUser;
+use Modules\LaravelUser\Entities\Permission;
+use Modules\LaravelUser\Entities\RolePermission;
+use Modules\LaravelUser\Entities\RoleUser;
 
 class Role extends Model
 {

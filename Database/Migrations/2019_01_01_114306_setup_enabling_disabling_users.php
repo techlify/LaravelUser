@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Migrations\Migration;
-use Modules\LaraveUser\Entities\Permission;
+use Modules\LaravelUser\Entities\Permission;
 use App\User;
 
 class SetupEnablingDisablingUsers extends Migration

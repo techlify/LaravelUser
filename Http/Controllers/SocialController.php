@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\LaraveUser\Http\Controllers;
+namespace Modules\LaravelUser\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\User;
@@ -10,8 +10,8 @@ use Illuminate\Support\Facades\Mail;
 use Laravel\Passport\Passport;
 use Modules\Client\Entities\Client;
 use Modules\Client\Events\ClientCreatedEvent;
-use Modules\LaraveUser\Emails\WelcomeMail;
-use Modules\LaraveUser\Entities\UserType;
+use Modules\LaravelUser\Emails\WelcomeMail;
+use Modules\LaravelUser\Entities\UserType;
 use Socialite;
 
 class SocialController extends Controller

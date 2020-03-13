@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\LaraveUser\Http\Controllers;
+namespace Modules\LaravelUser\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\User;
@@ -12,10 +12,10 @@ use Modules\Client\Entities\Client;
 use Modules\Client\Events\ClientCreatedEvent;
 use Modules\Module\Entities\Module;
 use Modules\Module\Entities\ModuleUser;
-use Modules\LaraveUser\Emails\ForgotPassword;
-use Modules\LaraveUser\Emails\WelcomeMail;
-use Modules\LaraveUser\Entities\Role;
-use Modules\LaraveUser\Entities\UserType;
+use Modules\LaravelUser\Emails\ForgotPassword;
+use Modules\LaravelUser\Emails\WelcomeMail;
+use Modules\LaravelUser\Entities\Role;
+use Modules\LaravelUser\Entities\UserType;
 
 class UserController extends Controller
 {
